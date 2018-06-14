@@ -657,6 +657,7 @@
 				DEVELOPMENT_TEAM = 5L8RA2E3VD;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveCocoa/PrefixHeader.pch";
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -676,6 +677,7 @@
 				DEVELOPMENT_TEAM = 5L8RA2E3VD;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ReactiveCocoa/PrefixHeader.pch";
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
