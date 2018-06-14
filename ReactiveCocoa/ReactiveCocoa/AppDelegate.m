@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,8 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"【1】当右上角图片可点击时，点击查看当前选中Cell展示的方法的图形说明\n 【2】查看某个方法时，先清空控制台查看更清晰哦" message:nil delegate:nil cancelButtonTitle:@"👌" otherButtonTitles:nil ];
+    [alert show];
     
-    NSLog(@"123");
+    
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init] ];
+    
+    self.window.rootViewController = navi;
+    
     return YES;
 }
 

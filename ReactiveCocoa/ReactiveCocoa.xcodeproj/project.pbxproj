@@ -52,6 +52,11 @@
 		4EA0AE5A20D2091900D1D4FB /* UIImage+EMMultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0AE2C20D2091900D1D4FB /* UIImage+EMMultiFormat.m */; };
 		4EA0AE5B20D2091900D1D4FB /* UIImageView+EMHighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0AE2D20D2091900D1D4FB /* UIImageView+EMHighlightedWebCache.m */; };
 		4EA0AE5C20D2091900D1D4FB /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0AE3520D2091900D1D4FB /* MWPhotoBrowser.bundle */; };
+		4EA0AE6220D209C800D1D4FB /* KFC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0AE5E20D209C700D1D4FB /* KFC.m */; };
+		4EA0AE6320D209C800D1D4FB /* kfc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0AE5F20D209C700D1D4FB /* kfc.plist */; };
+		4EA0AE6420D209C800D1D4FB /* ContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0AE6120D209C700D1D4FB /* ContentModel.m */; };
+		4EA0AE6920D209D600D1D4FB /* WKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0AE6520D209D500D1D4FB /* WKView.m */; };
+		4EA0AE6A20D209D600D1D4FB /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0AE6720D209D500D1D4FB /* RACViewController.m */; };
 		BD69D252621AE10D70CC76ED /* libPods-ReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AB22AA47B8B6E63308EE75 /* libPods-ReactiveCocoa.a */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +156,15 @@
 		4EA0AE3320D2091900D1D4FB /* EMSDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageOperation.h; sourceTree = "<group>"; };
 		4EA0AE3420D2091900D1D4FB /* EMSDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDWebImageDecoder.h; sourceTree = "<group>"; };
 		4EA0AE3520D2091900D1D4FB /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MWPhotoBrowser.bundle; sourceTree = "<group>"; };
+		4EA0AE5D20D209C700D1D4FB /* ContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentModel.h; sourceTree = "<group>"; };
+		4EA0AE5E20D209C700D1D4FB /* KFC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFC.m; sourceTree = "<group>"; };
+		4EA0AE5F20D209C700D1D4FB /* kfc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kfc.plist; sourceTree = "<group>"; };
+		4EA0AE6020D209C700D1D4FB /* KFC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFC.h; sourceTree = "<group>"; };
+		4EA0AE6120D209C700D1D4FB /* ContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentModel.m; sourceTree = "<group>"; };
+		4EA0AE6520D209D500D1D4FB /* WKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKView.m; sourceTree = "<group>"; };
+		4EA0AE6620D209D500D1D4FB /* WKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKView.h; sourceTree = "<group>"; };
+		4EA0AE6720D209D500D1D4FB /* RACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACViewController.m; sourceTree = "<group>"; };
+		4EA0AE6820D209D600D1D4FB /* RACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACViewController.h; sourceTree = "<group>"; };
 		A440C1A6D020A1BA08DBF0C7 /* Pods-ReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa/Pods-ReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		B3AB22AA47B8B6E63308EE75 /* libPods-ReactiveCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,6 +207,15 @@
 				4EA0ADC720D2074F00D1D4FB /* AppDelegate.m */,
 				4EA0ADC920D2074F00D1D4FB /* ViewController.h */,
 				4EA0ADCA20D2074F00D1D4FB /* ViewController.m */,
+				4EA0AE6820D209D600D1D4FB /* RACViewController.h */,
+				4EA0AE6720D209D500D1D4FB /* RACViewController.m */,
+				4EA0AE6620D209D500D1D4FB /* WKView.h */,
+				4EA0AE6520D209D500D1D4FB /* WKView.m */,
+				4EA0AE5D20D209C700D1D4FB /* ContentModel.h */,
+				4EA0AE6120D209C700D1D4FB /* ContentModel.m */,
+				4EA0AE6020D209C700D1D4FB /* KFC.h */,
+				4EA0AE5E20D209C700D1D4FB /* KFC.m */,
+				4EA0AE5F20D209C700D1D4FB /* kfc.plist */,
 				4EA0ADCC20D2074F00D1D4FB /* Main.storyboard */,
 				4EA0ADCF20D2075100D1D4FB /* Assets.xcassets */,
 				4EA0ADD120D2075100D1D4FB /* LaunchScreen.storyboard */,
@@ -413,6 +436,7 @@
 				4EA0ADD020D2075100D1D4FB /* Assets.xcassets in Resources */,
 				4EA0ADCE20D2074F00D1D4FB /* Main.storyboard in Resources */,
 				4EA0AE5C20D2091900D1D4FB /* MWPhotoBrowser.bundle in Resources */,
+				4EA0AE6320D209C800D1D4FB /* kfc.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA0AE6220D209C800D1D4FB /* KFC.m in Sources */,
 				4EA0AE3F20D2091900D1D4FB /* PSTCollectionViewController.m in Sources */,
 				4EA0AE4620D2091900D1D4FB /* PSTGridLayoutSection.m in Sources */,
 				4EA0ADCB20D2074F00D1D4FB /* ViewController.m in Sources */,
@@ -454,6 +479,7 @@
 				4EA0AE4220D2091900D1D4FB /* PSTGridLayoutInfo.m in Sources */,
 				4EA0AE4A20D2091900D1D4FB /* PSTCollectionViewLayout.m in Sources */,
 				4EA0AE4B20D2091900D1D4FB /* PSTGridLayoutItem.m in Sources */,
+				4EA0AE6420D209C800D1D4FB /* ContentModel.m in Sources */,
 				4EA0AE3620D2091900D1D4FB /* MWPhotoBrowser.m in Sources */,
 				4EA0AE5220D2091900D1D4FB /* EMSDImageCache.m in Sources */,
 				4EA0AE4D20D2091900D1D4FB /* NSData+EMImageContentType.m in Sources */,
@@ -470,6 +496,7 @@
 				4EA0AE5420D2091900D1D4FB /* UIImageView+EMWebCache.m in Sources */,
 				4EA0AE4920D2091900D1D4FB /* PSTGridLayoutRow.m in Sources */,
 				4EA0AE4720D2091900D1D4FB /* PSTCollectionViewItemKey.m in Sources */,
+				4EA0AE6920D209D600D1D4FB /* WKView.m in Sources */,
 				4EA0AE5320D2091900D1D4FB /* EMSDWebImageDecoder.m in Sources */,
 				4EA0AE4420D2091900D1D4FB /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				4EA0AE5A20D2091900D1D4FB /* UIImage+EMMultiFormat.m in Sources */,
@@ -478,6 +505,7 @@
 				4EA0ADC820D2074F00D1D4FB /* AppDelegate.m in Sources */,
 				4EA0AE4120D2091900D1D4FB /* PSTCollectionViewCell.m in Sources */,
 				4EA0AE3720D2091900D1D4FB /* MWCaptionView.m in Sources */,
+				4EA0AE6A20D209D600D1D4FB /* RACViewController.m in Sources */,
 				4EA0AE5620D2091900D1D4FB /* UIImage+EMWebP.m in Sources */,
 				4EA0AE5B20D2091900D1D4FB /* UIImageView+EMHighlightedWebCache.m in Sources */,
 				4EA0AE5920D2091900D1D4FB /* EMSDWebImageCompat.m in Sources */,
